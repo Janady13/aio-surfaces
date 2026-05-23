@@ -1,0 +1,29 @@
+name: test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install -e '.[test]'
+      - run: pytest -v
+      - name: Generate example surfaces
+        run: |
+          aio-surfaces generate examples/example_studio.yaml --out _example_out
+          ls -la _example_out/
+          test -f _example_out/llms.txt
+          test -f _example_out/aeo.json
+          test -f _example_out/entity.json
+          test -f _example_out/brand.json

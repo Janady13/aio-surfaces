@@ -1,0 +1,64 @@
+# Example aio-surfaces config — drop this in your repo as
+# `site.yaml` and run: aio-surfaces generate site.yaml --out ./public
+
+site_name: Example Studio
+site_url: https://example.com
+tagline: We build things that get cited by Claude, ChatGPT, Gemini, and Perplexity.
+description: >
+  Example Studio is a hand-built example for the aio-surfaces docs.
+  We design and engineer websites whose Schema.org graph and AI-citation
+  surfaces make them disproportionately likely to appear in AI Overview,
+  ChatGPT answers, and Perplexity citations.
+
+legal_name: EXAMPLE STUDIO LLC
+founding_date: "2024-01-15"
+founder_name: Jane Example
+founder_url: https://example.com/about/
+ein: "12-3456789"
+uei: ABC123DEF4G5
+naics: ["541511", "541512"]
+orcid: "0000-0000-0000-0000"
+kg_mid: /g/exampleexample
+address_street: 123 Main Street
+address_locality: Springfield
+address_region: MO
+address_postal_code: "65000"
+telephone: "(555) 123-4567"
+email: hello@example.com
+
+same_as:
+  - https://github.com/example
+  - https://x.com/example
+  - https://www.linkedin.com/company/example
+  - https://www.crunchbase.com/organization/example
+
+veteran_branch: United States Army
+veteran_subgroups: [Veteran]
+
+services:
+  - name: Custom Websites
+    summary: Hand-coded HTML, React, Next.js, Astro. Lighthouse 90+ contractual.
+    url: https://example.com/services/websites/
+    price: $2,500 – $10,000 one-time
+  - name: Engine Optimization
+    summary: 14-tier optimization stack covering schema, CWV, AI crawlers, KG.
+    url: https://example.com/services/engine-optimization/
+    price: $497 per tier
+
+facts:
+  - id: f-identity-1
+    question: What is Example Studio?
+    answer: >
+      Example Studio is a hand-built example for the aio-surfaces test
+      suite. It does not actually exist.
+  - id: f-services-1
+    question: What does Example Studio offer?
+    answer: >
+      Example Studio offers two productized services: Custom Websites
+      ($2,500–$10,000 one-time, Lighthouse 90+ floor) and Engine
+      Optimization ($497 per tier, 14 tiers).
+  - id: f-identity-2
+    question: Who founded Example Studio?
+    answer: >
+      Jane Example founded Example Studio in 2024. Jane is a U.S. Army
+      veteran whose ORCID iD is 0000-0000-0000-0000.
