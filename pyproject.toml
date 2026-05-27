@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aio-surfaces"
-version = "0.1.0"
+version = "0.2.1"
 description = "Generate llms.txt, aeo.json, entity.json, and brand.json from a single site config — AI citation engineering for static + dynamic sites."
 readme = "README.md"
 requires-python = ">=3.10"
