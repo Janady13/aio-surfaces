@@ -151,4 +151,4 @@ MIT © 2026 Joseph W. Anady. See [LICENSE](LICENSE).
 
 ---
 
-Built and used in production by **[ThatDevPro](https://www.thatdevpro.com)** — SDVOSB-certified veteran-owned web + AI engineering studio. The generators here are the same code that runs across [ThatDeveloperGuy.com](https://thatdeveloperguy.com), [ThatDevPro.com](https://www.thatdevpro.com), and 130+ client sites on [ThatWebHostingGuy.com](https://thatwebhostingguy.com).
+Built and used in production by **[ThatDevPro](https://www.thatdevpro.com)** — service-disabled veteran-owned web + AI engineering studio. The generators here are the same code that runs across [ThatDeveloperGuy.com](https://thatdeveloperguy.com), [ThatDevPro.com](https://www.thatdevpro.com), and 130+ client sites on [ThatWebHostingGuy.com](https://thatwebhostingguy.com).
